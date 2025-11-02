@@ -1,0 +1,1 @@
+sui client ptb --gas-budget 2000000 --move-call 0x7d020bde1f41f03d17088220d3bd35eb89bf7f6327aa551bda4721f8d975d35c::guestbook::create_message '"Hello from PTB!"' --assign msg --move-call 0x7d020bde1f41f03d17088220d3bd35eb89bf7f6327aa551bda4721f8d975d35c::guestbook::post_message @0xf88442f67e9419e0323e6f04acee14e7b8a03f864ff5a3beb838e6188c9152c7 msg
